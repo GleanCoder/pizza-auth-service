@@ -1,0 +1,24 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Auth service for pizza delivery app",
+  "keywords": [
+    "Auth",
+    "Service"
+  ],
+  "homepage": "https://github.com/GleanCoder/pizza-auth-service#readme",
+  "bugs": {
+    "url": "https://github.com/GleanCoder/pizza-auth-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GleanCoder/pizza-auth-service.git"
+  },
+  "license": "ISC",
+  "author": "Aditya Kiran Acharya <adityakiranacharya0@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
