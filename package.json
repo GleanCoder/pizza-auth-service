@@ -1,37 +1,39 @@
 {
-    "name": "auth-service",
-    "version": "1.0.0",
-    "description": "Auth service for pizza delivery app",
-    "keywords": [
-        "Auth",
-        "Service"
-    ],
-    "homepage": "https://github.com/GleanCoder/pizza-auth-service#readme",
-    "bugs": {
-        "url": "https://github.com/GleanCoder/pizza-auth-service/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/GleanCoder/pizza-auth-service.git"
-    },
-    "license": "ISC",
-    "author": "Aditya Kiran Acharya <adityakiranacharya0@gmail.com>",
-    "type": "commonjs",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "format:fix": "prettier --write .",
-        "format:check": "prettier --check .",
-        "eslint:fix": "eslint . --fix",
-        "eslint:check": "eslint ."
-    },
-    "devDependencies": {
-        "@eslint/js": "^10.0.1",
-        "@types/node": "^25.6.0",
-        "eslint": "^10.2.1",
-        "globals": "^17.5.0",
-        "prettier": "3.8.3",
-        "typescript": "^6.0.2",
-        "typescript-eslint": "^8.59.0"
-    }
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Auth service for pizza delivery app",
+  "keywords": [
+    "Auth",
+    "Service"
+  ],
+  "homepage": "https://github.com/GleanCoder/pizza-auth-service#readme",
+  "bugs": {
+    "url": "https://github.com/GleanCoder/pizza-auth-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GleanCoder/pizza-auth-service.git"
+  },
+  "license": "ISC",
+  "author": "Aditya Kiran Acharya <adityakiranacharya0@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:fix": "prettier --write .",
+    "format:check": "prettier --check .",
+    "eslint:fix": "eslint . --fix",
+    "eslint:check": "eslint .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "husky": "^9.1.7",
+    "prettier": "3.8.3",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.59.0"
+  }
 }
