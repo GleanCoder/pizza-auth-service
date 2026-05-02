@@ -1,5 +1,17 @@
-function welcomeMessage(name: string) {
-    return `Welcome ${name}`;
-}
+import app from "./app";
 
-welcomeMessage("Aditya");
+// import { Config } from "./config/index.js";
+
+const Port = 3000;
+const startServer = () => {
+    try {
+        app.listen(Port, () => {
+            console.log(`Server is litening on: ${Port}`);
+        });
+    } catch (error) {
+        console.log(error);
+        process.exit(1);
+    }
+};
+
+startServer();
